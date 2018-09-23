@@ -17,5 +17,6 @@ end
 
 def find_the_cheese(a) code an argument here
   # the array below is here to help
-   = ["cheddar", "gouda", "camembert"]
+  a = ["cheddar", "gouda", "camembert"]
+  a.include?
 end
