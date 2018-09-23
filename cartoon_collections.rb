@@ -8,9 +8,11 @@ def summon_captain_planet (a)# code an argument here
   a.map! {|x| x.capitalize + "!" }
 end
 
-def long_planeteer_calls (e)# code an argument here
-  all? do |e|
-    e.length >= 4
+def long_planeteer_calls (arr)# code an argument here
+   arr.collect |x|
+   if x.length > 4 == true
+ else
+   false
 end
 
 def find_the_cheese# code an argument here
