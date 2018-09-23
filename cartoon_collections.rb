@@ -8,7 +8,7 @@ def summon_captain_planet (a)# code an argument here
   a.map! {|x| x.capitalize + "!" }
 end
 
-def long_planeteer_calls ()# code an argument here
+def long_planeteer_calls (e)# code an argument here
   all? do |e|
     e.length >= 4
 end
