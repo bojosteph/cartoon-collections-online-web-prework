@@ -18,5 +18,6 @@ end
 def find_the_cheese(a) code an argument here
   # the array below is here to help
   a = ["cheddar", "gouda", "camembert"]
-  a.include?
+  array.index do |x|
+    return x.include?
 end
